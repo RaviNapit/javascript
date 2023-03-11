@@ -1,0 +1,16 @@
+Below are the methos present in Docuemnt Object to Acess DOM elements
+
+getElementById()
+
+querySelector() -> returnts the first webpage element that matches a specified CSS selector in the Docuemnt ( class name, id or tag name)
+                -> selecting via class name:-   document.querySelector('.<class_name>')
+                -> selecting via id        :-   document.querySelector('#id')
+                -> selecting via tag       :-   document.querySelector('img')
+
+# textContent Property is used to read the content of webpage Element
+ let p =  document.querySelector('#id')
+ console.log(p.textContent)
+
+# innerHTML Property is used to read the HTML content of webpage Element
+ let p =  document.querySelector('#id')
+ console.log(p.innerHTML)

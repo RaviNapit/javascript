@@ -1,0 +1,16 @@
+from :- "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+
+what is javascript:- A single-threaded non-blocking asyncronous concurrent language. It has a call-stack an event-loop, a       callback-queue some other apis and stuff
+
+v8-engine:- it has call-stack [fuction-stacks] and heap [memory-allocation]. But if you use TIMEOUT or DOM or AJAX they are not in v8.
+
+Ohter-things like DOM, AJAX and TIMEOUT are provided by Browser itself.
+
+
+==================================================================================================================================
+The call stack:-     one-thread => one call stack => one thing at a time
+Blocking      :-     what happend when things are slow [ newtork requests are slow]
+
+
+
+

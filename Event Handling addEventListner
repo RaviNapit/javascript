@@ -1,0 +1,19 @@
+function displayAltert() {
+    alert("SOME RANDIN TEXT")
+}
+
+
+document.getElementById('id')
+    .addEventListener('click',displayAltert); // two things to notice
+
+// first, it is click not onclick
+// we pass the function name with out parenthesis
+
+
+// we can also use annonymous function
+document.getElementById('id')
+    .addEventListener('click', function() {
+        alert("SOME RANDOM TEST")
+    })
+
+

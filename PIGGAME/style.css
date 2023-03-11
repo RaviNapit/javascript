@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .player-panel {
+    width: 45%;
+    background-color: #222;
+    padding: 5%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .cube-panel {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 80%;
+    top:20%;
+    background-color: #222;
+    padding: 5%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+  }
+  
+  .active {
+    border: 5px solid #f9a825;
+  }
+  
+  .player-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .player-score {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .player-current-label {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .player-current-score {
+    font-size: 30px;
+  }
+  
+  .btn-new,
+  .btn-roll,
+  .btn-hold {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+  }
+  
+  .btn-roll {
+    background-color: #2196f3;
+  }
+  
+  .btn-hold {
+    background-color: #4caf50;
+  }
+  

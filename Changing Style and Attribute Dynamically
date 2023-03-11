@@ -1,0 +1,15 @@
+# change the src attribute of img element;
+document.querySelector('img').src = 'other value'  # this way you can change the value of any attribute
+document.querySelector('img').height = 'other value'  # changing the height attraibue
+document.querySelector('img').width =  'other value'
+
+
+# adding style dynamically
+document.getElementById('#id').style.color = "red"
+
+# remove a class from an element
+document.getElementById('#id').classList.remove('class_name')
+
+# add a class from an element
+document.getElementById('#id').classList.add('class_name')
+

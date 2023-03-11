@@ -1,0 +1,8 @@
+What is DOM => Document (HTML Document) Object Model. Document has elements like Paragraph, Hyperlinks etc. So DOM represent all this elements as Objects. And all these objects are stored in Docuemnt Object.
+
+Where is Document Object present => javascript programs are executed in run time environment. When we run a js program in browser, the run time is browser. Every run time environment has a global object, in case of 
+                                    browser the rum time environment is Window Obbject. This Window Object contains the Docuemnt Object.
+
+
+
+                                

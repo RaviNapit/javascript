@@ -1,0 +1,45 @@
+an event in javascript can be classifies into two types:-
+1. Browser Specific Event   [ resing browser window, scroling up & down ] 
+2. DOM specific Event   [ clicking a button, hovering over an elemnt, focus on a textbox]
+
+
+
+How to handle events in javascript
+ 1. inline event handler
+ 2. event handler properties
+ 3. using addEventListener() methods
+
+
+
+Using inline event hanlder, we can handle DOM event by:-
+1. Adding an attribute to the HTML element for which we want to handle event
+2. The attribute name must be the (on + eventname) like [ onclick, onfocus, onmousehover ]
+3. Assign any javascript expression to the attribute which you want to execute when that event happens
+
+# example
+<input type = "text" id = "fname"/>
+# adding inline event handler, we are handling focus event handler
+<input type = "text" id = "fname" 
+onfocus="this.style.backgroundColor='yellow'"  #this -> point to text field
+onblur="this.style.backgroundColor='white'"/>
+
+
+
+
+
+ Using event handler properties, we can handle DOM event by:-
+ 1. Adding a DOM property to the DOM element for which we want to handle event
+ 2. The property name must be (on + eventname)
+ 3. Assigning a javascript function to the property which we to execute when the event happens
+
+ let lName = document.getElementById('id')
+ lName.onfocus = function () {
+    lName.style.backgroundColor = "yellow"
+ }
+
+ lName.onblur = function () {
+    lName.style.backgroundColor = "balckj"
+ }
+
+
+ 
